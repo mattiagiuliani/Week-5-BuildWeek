@@ -1,0 +1,39 @@
+.img{
+    height: 40px;
+    border-radius: 100%;
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rowed{
+    padding: 20px;
+    background: linear-gradient(to right, #000000, #363535);
+}
+
+.btn.play{
+    color: black;
+    background-color: green;
+    border-radius: 999px;
+    }
+
+.btn.salva{
+    border-color: white;
+    border-radius:   999px;
+}
+
+.btn.annunci{
+    background-color: #363535;
+    opacity: 50%;
+    border-radius: 999px;
+}
+
+.annunci{
+    white-space: nowrap;
+}
+
+
+
+
