@@ -35,8 +35,8 @@ function CreateCards() {
   
     const firstSection = globalObject.slice(0, 6).map(album => `
       <div class="col-sm-2 col-md-4 col-lg-4">
-        <div class="card h-100">
-          <img src="${album.album.cover_medium}" class="card-img-top" alt="${album.title}">
+        <div class="card h-100 d-flex flex-row">
+          <img src="${album.album.cover_medium}" class="card-img-left " alt="${album.title}">
           <div class="card-body">
             <h5 class="card-title">${album.title}</h5>
             <p class="card-text">${album.artist.name}</p>
@@ -49,7 +49,7 @@ function CreateCards() {
 
    
     const secondSection = globalObject.slice(6, 11).map(album => `
-      <div class="col-sm-2 col-md-4 col-lg-4">
+      <div class="col">
         <div class="card h-100">
           <img src="${album.album.cover_medium}" class="card-img-top" alt="${album.title}">
           <div class="card-body">
@@ -76,7 +76,7 @@ function CreateCards() {
       <section class="section2 my-5">
         <h5 class="section2-title">Altro di ciò che ti piace</h5>
         <div class="container-fluid">
-          <div class="row">
+          <div class="row row-cols-5">
             ${secondSection}
           </div>
         </div>

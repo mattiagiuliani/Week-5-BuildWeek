@@ -34,6 +34,17 @@ header{
     white-space: nowrap;
 }
 
+.card-img-left {
+  width: 33%;
+  object-fit: cover;
+}
+
+.section{
+    
+}
+
+
+
 
 
 
