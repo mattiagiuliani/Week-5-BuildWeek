@@ -1,50 +1,51 @@
-.img{
+.img {
     height: 40px;
     border-radius: 100%;
 }
 
-header{
+header {
     justify-content: space-between;
     align-items: center;
 }
 
-.rowed{
+.rowed {
     padding: 20px;
     background: linear-gradient(to right, #000000, #363535);
 }
 
-.btn.play{
+.btn.play {
     color: black;
     background-color: green;
     border-radius: 999px;
-    }
-
-.btn.salva{
-    border-color: white;
-    border-radius:   999px;
 }
 
-.btn.annunci{
+.btn.salva {
+    border-color: white;
+    border-radius: 999px;
+}
+
+.btn.annunci {
     background-color: #363535;
     opacity: 50%;
     border-radius: 999px;
 }
 
-.annunci{
+.annunci {
     white-space: nowrap;
 }
 
 .card-img-left {
-  width: 33%;
-  object-fit: cover;
+    width: 33%;
+    object-fit: cover;
 }
 
-.section{
-    
+.section {}
+
+#btnHeart {
+    color: black;
+    margin-left: 140px;
 }
 
-
-
-
-
-
+#btnDownload {
+    color: black;
+}
