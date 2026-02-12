@@ -35,12 +35,42 @@ header{
 }
 
 .card-img-left {
-  width: 33%;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
 }
 
-.section{
-    
+@media (max-width: 576px) {
+  .card-img-left {
+    width: 100%;
+    height: 220px;
+    border-radius: 12px 12px 0 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-img-left {
+    height: 100%;   
+  }
+}
+
+.section2 .card-img-top {
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+@media (max-width: 576px) {
+  .section2 .card-img-top {
+    height: 140px;
+  }
+}
+
+
+.bg-gray {
+    background-color: #464444dc;
 }
 
 
